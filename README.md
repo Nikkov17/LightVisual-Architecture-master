@@ -1,1 +1,3 @@
-# LightVisual-Architecture-master
+# LightVisual-Architecture
+
+https://evgeniigrh.github.io/LightVisual-Architecture/

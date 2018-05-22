@@ -1,0 +1,272 @@
+@font-face {
+    font-family: "Roboto-light";
+    src: url("../fonts/Roboto-Light.ttf");
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    position: relative;
+}
+
+.inner-container{
+    max-width: 94%;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.inner-header-container{
+    max-width: 54.3%;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+    .inner-header-container {
+        max-width: 70%;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    width: 100%;
+    height: 140px;
+    background: white;
+    position: fixed;
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1550px) {
+    .header{
+        height: 111px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .header {
+        height: 87px;
+        position: fixed;
+        top: 0;
+        background-color: white;
+        }
+}
+
+.header-content{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.block-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    width: 61px;
+    height: 74px;
+}
+
+@media screen and (max-width: 1200px) {
+    .logo-img{
+        width: 52px;
+        height: 64px;
+    }
+}
+
+
+.logo-caption{
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+    .logo-caption{
+        font-size: 24px;
+        margin-left: 15px;
+    }
+}
+
+
+.secondary-logo-text{
+    font-family: Roboto-light;
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: normal;
+    color: rgb(100,100,100);
+}
+@media screen and (max-width:1550px){
+    .secondary-logo-text{
+        font-size: 12px;
+    }
+}
+
+.block-list-social{
+    display: flex;
+}
+
+.list-menu{
+    font-family: Roboto-light;
+    font-size: 17px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
+    .list-menu{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1199px) {
+    .list-menu{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .list-menu {
+        font-size: 11px;
+    }
+}
+
+
+.menu-item{
+    margin-right: 99px;
+}
+
+.menu-item:last-of-type{
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1100px){
+    .menu-item{
+        margin-left: 50px;
+    }
+}
+
+.menu-item a{
+     color: rgb(100,100,100);
+ }
+
+@media screen and (min-width: 1551px){
+    .menu-item {
+        margin-right: 55px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
+    .menu-item{
+        margin-right: 45px;
+    }
+
+
+
+    .menu-item:last-of-type{
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1199px) {
+    .menu-item{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .menu-item {
+        margin-right: 30px;
+    }
+}
+/*//////////////////////////////*/
+
+.sprites-container{
+    display: flex;
+}
+
+.sprite-item{
+    width: 21px;
+    height: 21px;
+    /*margin-left: 30px;*/
+}
+
+/*//////////////////////////////////////////////////////////////////////////*/
+.gmail-icon{
+    filter: invert(100%);
+    width: 21.2px;
+    background: url(../img/color-sprite.png);
+    background-position-x: -0.2px;
+    background-size: cover;
+    margin-left: 15px;
+    margin-right: 0.1px;
+}
+/*//////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (min-width: 1200px) and (max-width: 1550px) {
+    .sprite-item:first-of-type {
+        margin-left: 15px;
+    }
+}
+
+.sprite-item:last-of-type{
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 1199px) {
+    .sprite-item:first-of-type {
+        margin-left: 15px;
+    }
+}
+
+.main{
+    flex: 1;   
+}
+
+.footer{
+    width: 100%;
+    height: 70px;
+}
+
+.footer-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-text{
+    font-family: Roboto , sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: -1px 0 0 black;
+}
+
+.footer-text-year{
+    font-family: Century Gothic;
+    margin-right: 5px;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+.text-style{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+}
